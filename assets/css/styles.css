@@ -195,7 +195,6 @@ header{
 #boutonmode{
     margin-left: 1%;
     width: 15%;
-    height: 30px;
     border-radius: 50px;
     font-size: 1.2em;
 }
@@ -240,7 +239,6 @@ form {
     margin: 10px;
     font-size: 1em;
     width: 159px;
-    height: 30px;
     border-radius: 50px;
 }
 .buttons:hover{
@@ -310,9 +308,12 @@ form {
     .containcontact{
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 70%;
     }
     #titrecontactwhite, #titrecontact{
+        width: 80%;
+    }
+    #email, #messagearea, .buttons{
         width: 80%;
     }
 }
@@ -328,7 +329,6 @@ form {
         overflow-wrap: normal;
         margin-left: 6%;
     }
-
     .main article {
         width: 50%;
     }
@@ -363,7 +363,6 @@ form {
     #boutonmode {
         margin-left: 1%;
         width: 50%;
-        height: 30px;
         border-radius: 50px;
         font-size: 1.2em;
     }
