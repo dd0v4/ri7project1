@@ -1,0 +1,378 @@
+.white-mode-theme{
+    background-color: white;
+    color: black;
+    
+}
+body{
+    background-color: #14142c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#titre{
+    text-align: center;
+    border: 1px solid #434356;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: #2c2c44;
+    color: #cecedc;
+    width: 50%;
+}
+#titrewhite{
+    text-align: center;
+    border: 1px solid #434356;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: white;
+    color: black;
+    width: 50%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+#liens{
+    color: #dedee8;
+    font-size: 1.0em;
+}
+#liens a{
+    font-size: 1.5em;
+    color: #dedee8;
+
+}
+#lienswhite{
+    color: black;
+    font-size: 1.0em;
+}
+#lienswhite a{
+    color: black;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+#lienswhite a:hover{
+    color: blue;
+    font-size: 1.6em;
+}
+#s2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+#HTML5, #CSS3, #Javascript{
+    padding-top: 70px;
+    display: flex;
+    color: #dedee8;
+    font-size: 1.0em;
+    flex-direction: column;
+    align-items: center;
+}
+#liens a:hover{
+    color: red;
+    font-size: 1.6em;
+}
+.dark{
+    color: #dedee8; 
+}
+.white{
+    color: black;
+    background-color: white;
+}
+#titrehtml{
+    text-align: center;
+    border: 1px solid #434356;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: #2c2c44;
+    font-size: 2em;
+    color: #cecedc;
+    width: 30%
+}
+#titrehtmlwhite{
+    text-align: center;
+    border: 1px solid #434356;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: white;
+    font-size: 2em;
+    color: black;
+    width: 30%
+}
+#titrecss{
+    text-align: center;
+    border: 1px solid #434356;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: #2c2c44;
+    font-size: 2em;
+    color: #cecedc;
+    width: 30%
+}
+#titrecsswhite{
+    text-align: center;
+    border: 1px solid #434356;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: white;
+    font-size: 2em;
+    color: black;
+    width: 30%
+}
+#titrejs{
+    text-align: center;
+    border: 1px solid #434356;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: #2c2c44;
+    font-size: 2em;
+    color: #cecedc;
+    width: 30%
+}
+#titrejswhite{
+    text-align: center;
+    border: 1px solid #434356;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: white;
+    font-size: 2em;
+    color: black;
+    width: 30%
+}
+#titrecontact{
+    text-align: center;
+    border: 1px solid #434356;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: #2c2c44;
+    font-size: 2em;
+    color: #cecedc;
+    width: 30%
+}
+#titrecontactwhite{
+    text-align: center;
+    border: 1px solid #434356;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: white;
+    font-size: 2em;
+    color: black;
+    width: 30%
+}
+#HTML5 h4, #CSS3 h4, #Javascript h4, #contact h4{
+    font-size: 1.3em;
+    text-align: center;
+}
+#HTML5 p, #CSS3 p, #Javascript p, #contact p{
+    font-size: 1.2em;
+}
+.partie1, .partie2{
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.images{
+    display: flex;
+    width: auto;
+    height: 380px;
+    padding: 30px;
+    margin: 0;
+    justify-content: center;    
+}
+.imageswhite{
+    display: flex;
+    width: auto;
+    height: 380px;
+    padding: 30px;
+    margin: 0;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.important{
+    font-weight: bold;
+}
+#boutonmode{
+    margin-left: 1%;
+    width: 15%;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 1.2em;
+}
+#boutonmode:hover{
+    background-color: red;
+}
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.containcontact{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+#email{
+    width: 85%;
+    margin: 10px;
+}
+.message, .coordonnees{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2c2c44;
+    color: #dedee8;
+    font-size: 1.0em;
+    margin: 10px;
+}
+.buttons{
+    margin: 10px;
+    font-size: 1em;
+    width: 159px;
+    height: 30px;
+    border-radius: 50px;
+}
+.buttons:hover{
+    color: red;
+}
+.cb{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width: 450px){
+    .main {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        text-overflow: ellipsis;
+        overflow-wrap: normal;
+        margin-left: 6%;
+    }
+
+    .main article {
+        width: 40%;
+    }
+    #titrecss, #titrehtml, #titrecsswhite, #titrehtmlwhite, #titrejs, #titrejswhite{
+        width: 100%;
+        height: auto;
+    }
+    #titre, #titrewhite{
+        font-size: 1.70em;
+    }
+
+    .images, .imageswhite {
+        flex-direction: column;
+        width: 450px;
+        height: auto;    
+        margin-left: 6%;  
+    }
+
+    .main p, #HTML5 p, #CSS3 p, #Javascript p{
+        text-align: center;
+        font-size: 0.9em;
+        width: 90%;
+        padding: 10px;
+        margin-left: 6%;
+    }
+
+    #HTML5 h4, #CSS3 h4 , #Javascript h4{
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .partie1, .partie2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #boutonmode {
+        margin-left: 1%;
+        width: 50%;
+        height: 30px;
+        border-radius: 50px;
+        font-size: 1.2em;
+    }
+    .containcontact{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    #titrecontactwhite, #titrecontact{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 900px){
+    .main {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        text-overflow: ellipsis;
+        overflow-wrap: normal;
+        margin-left: 6%;
+    }
+
+    .main article {
+        width: 50%;
+    }
+    #titrecss, #titrehtml, #titrecsswhite, #titrehtmlwhite, #titrejs, #titrejswhite{
+        width: 100%;
+    }
+
+    .images, .imageswhite {
+        flex-direction: column;
+        width: 450px;
+        height: auto;      
+    }
+
+    .main p, #HTML5 p, #CSS3 p , #Javascript p{
+        text-align: center;
+        font-size: 1em;
+        width: 85%;
+        padding: 10px;
+    }
+
+    #HTML5 h4, #CSS3 h4 , #Javascript p{
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .partie1, .partie2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #boutonmode {
+        margin-left: 1%;
+        width: 50%;
+        height: 30px;
+        border-radius: 50px;
+        font-size: 1.2em;
+    }
+    .containcontact{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    #titrecontactwhite, #titrecontact{
+        width: 80%;
+    }
+}

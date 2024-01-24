@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet HTML/CSS</title>
+</head>
+<body>
+<header>
+    <h1 id="titre"">Le développement expliqué pour ta grand-mère</h1>
+</header>
+<main>
+    <nav>
+        <div id="liens">
+            <h2 class="dark">Liste de liens ancres pour accéder à l'explication voulue.</h2>
+            <ul>
+                <li><a href="#HTML5">HTML5</a></li>
+                <li><a href="#CSS3">CSS3</a></li>
+                <li><a href="#Javascript">Javascript</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="boutonmode">Changer de mode</button>
+        </div>
+    </nav>
+
+    <section class="main">
+        <h2 class="dark">Ou commencez la lecture ci-dessous.</h2>
+        <article id="HTML5">
+            <h3 id="titrehtml">Quest-ce qu'HTML 5 ?</h3>
+            <h4>HTML5 aussi appelé Hypertex Markup Language 5 est un langage qu'on appelle "De balisage", mais vous me direz, "Qu'est-ce qu'une balise ?"</h4>
+            <div class="partie1">
+                <p>Alors on va faire simple, je vais ici vous montrer comment une page HTML basique est structurée.</p>
+                <div class="images">
+                    <img src="./assets/images/HTML1.png" alt="Page HTML basique">
+                    <img src="./assets/images/HTML2.png" alt="Page HTML après interprétation">
+                </div>
+                <p>Vous vous dîtes sûrement, (ou peut-être pas...) : "Pourquoi tant de code pour si peu d'affichage ?"</p>
+                <p>Ce que vous devez savoir, c'est que chaque balise est intérpretée par notre navigateur comme une boîte, elles sont presque toutes perçues de la même manière à l'interprétation, mais ce n'est pas ça qui nous intéresse, et on va voir ça dans la partie plus bas.</p>
+            </div>
+            <div class="partie2">
+                <h4>La programmation sémantique</h4>
+                <p>Ce que vous devez savoir, c'est que quand vous décider de publier un site sur le web, les robots de Google iront lire votre code. Mais ces robots n'ont pas d'yeux pour voir comme nous, c'est pour ce fait qu'existe la sémantique.</p>
+                <div class="images">
+                    <img src="./assets/images/google.jpg" alt="Image d'un robot de google">
+                </div>
+                <p>Comme vous pouvez le voir, HTML fonctionne avec une balise <span class="important">HEAD</span> et une balise <span class="important">BODY</span>. La partie head, aussi traduite en "tête" en français, serait la tête de notre page, celle à qui on donnerait les données pour que le corps puisse bouger.</p>
+                <p>Passons maintenant à la partie body, aussi traduite en "corps" en français, ce serait donc le corps de notre page et donc ce qui s'affichera sur notre navigateur. </p>
+                <p>Mais qu'est-ce que la sémantique a à faire là dedans ? Très simple, le schéma est le même. Avec la balise <span class="important">HEADER</span>, on indique aux robots que c'est la tête de notre site et donc le haut. </p>
+                <p>Et vous me direz aussi "Et où est le body ?", et bien c'est très simple, on utilise la balise <span class="important">MAIN</span>, aussi traduite en "Principal" en français ce qui voudrait donc dire partie principale.</p>
+                <p>Il y a maintenant une autre balise, qui n'est pas dans le schéma basique d'une page HTML mais très simple à comprendre avec son nom <span class="important">FOOTER</span> aussi traduit par pied en français, ce qui est donc le pied de notre corps et donc le bas de la page.</p>
+            </div>
+            
+        </article>
+        <article id="CSS3">
+            <h3 id="titrecss">Quest-ce que CSS3 ?</h3>
+            <h4>CSS, ou Cascading Style Sheets, est comme dans son nom l'indique, "Un langage de style"</h4>
+            <div class="partie1">
+                <p>Ce que vous devez savoir, c'est que le CSS a été créé pour rendre notre code HTML (<a href="#HTML5">explication ici</a>) totalement visuellement modifiable. Une page sans css, c'est une page moche au look "vieux" et vide.</p>
+                <div class="images">
+                    <img src="./assets/images/CSS1.png" alt="Page HTML sans CSS">
+                    <img src="./assets/images/CSS2.png" alt="Page HTML avec CSS">
+                </div>
+                <p>Je vous ai ci-dessus posté deux images, la première, un site <span class="important">sans aucun CSS</span>, la deuxième, <span class="important">avec du CSS</span>. Comme vous pouvez le voir, la page avec du code CSS est beaucoup plus belle et accessible.</p>
+            
+            </div>            
+        </article>
+        <article id="Javascript">
+            <h3 id="titrejs">Quest-ce que JavaScript ?</h3>
+            <h4>Contrairement aux deux précédents, JavaScript est un langage langage de programmation.</h4>
+            <div class="partie1">
+                <p>Ce langage de programmation est énormément utilisé dans les pages web, c'est celui qui viendra <span class="important">dynamiser</span> notre page.</p>
+                <div class="images">
+                    <img src="./assets/images/javascript.jpg" alt="Code javascript">
+                    <img src="./assets/images/javascript2.jpg" alt="Code javascript">
+                </div>
+                <p>Comme vous pouvez le voir dans la partie supérieure du site, il y a un bouton qui sert à changer la couleur de la page, ce bouton a été <span class="important">réalisé avec JavaScript</span>. Il y a beaucoup d'utilités à JavaScript, on peut aussi parler de <span class="important">NodeJS</span> (NodeJavaScript) qui peut servir à remplacer les langages tradiotionnels utilisés pour communiquer entre un site et son serveur.</p>
+                <p>Concentrons-nous maintenant sur la <span class="important">deuxième image</span>, comme mentionné dans le texte du dessus, NodeJS se voit être <span class="important">de plus en plus utilisé</span> avec le temps comme un langage <span class="important">côté serveur</span>.</p>
+            </div>            
+        </article>
+    </section>
+</main>
+<footer id="contact">
+    <h2 id="titrecontact">Nous contacter</h2>
+    <div class="containcontact">
+        <div class="message">
+            <form id="formmsg" action="#" method="post">
+                <label for="email">Entrez votre adresse email.</label>
+                <input type="mail" id="email">
+                <label for="messagearea">Entrez votre message.</label>
+                <textarea id="messagearea"rows="6" cols="40"></textarea>
+                <div class="cb">
+                    <button class="buttons" form="formmsg" type="reset">Réinitialiser</button>
+                    <button class="buttons" form="formmsg" id="submitbut" type="submit">Soumettre</button>
+                </div>
+            </form>
+        </div>
+        <div class="coordonnees">
+            <h2>Nos coordonnées</h2>
+            <p>+33 7 01 01 01 01</p>
+            <p>d0v4@nomail.com</p>
+            <p>17 avenue de discord, 13013 Marseille</p>
+
+        </div>
+    </div>
+</footer>
+<script src="./assets/js/main.js"></script>
+</body>
+</html>
